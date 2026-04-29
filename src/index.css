@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-neon-pink: #ff007f;
+  --color-neon-blue: #00f3ff;
+  --color-neon-purple: #b026ff;
+  --color-neon-green: #39ff14;
+}
+
+body {
+  background-color: #050505;
+  color: #fff;
+  overflow: hidden;
+}
+
+.neon-border-pink {
+  box-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f, inset 0 0 5px #ff007f;
+  border: 1px solid #ff007f;
+}
+
+.neon-border-blue {
+  box-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff, inset 0 0 5px #00f3ff;
+  border: 1px solid #00f3ff;
+}
+
+.neon-text-blue {
+  text-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff;
+}
+
+.neon-text-pink {
+  text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f;
+}
+
+.neon-text-green {
+  text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14;
+}
